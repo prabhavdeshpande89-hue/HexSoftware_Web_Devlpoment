@@ -1,0 +1,26 @@
+# 🐾 Animal Charity Organization Website
+
+A multi-page, responsive, and visually engaging website created for an **Animal Charity Organization**, showcasing their mission, programs, and donation options.  
+Developed using **HTML5**, **CSS3**, and **JavaScript** with smooth animations and online-based images.
+
+---
+
+## 📌 Features
+
+- **Home Page** – Introduction and mission statement of the organization.
+- **Programs Section** – Details on key initiatives:
+  - 🐶 **Rescue** – Saving animals from dangerous situations.
+  - 🏠 **Shelter** – Providing safe environments for homeless animals.
+  - 🐕 **Adoption** – Helping animals find loving homes.
+- **Donation Page** – Easy ways for visitors to contribute.
+- **Contact Page** – Contact form for inquiries and support.
+- **Animations** – Smooth transitions and hover effects for a modern feel.
+- **Responsive Design** – Works seamlessly on desktop, tablet, and mobile.
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Structure of the web pages.
+- **CSS3** – Styling, responsive layouts, and animations.
+- **JavaScript** – Interactivity and dynamic feature
