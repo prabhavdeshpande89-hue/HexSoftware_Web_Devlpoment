@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📚 Indian Book Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>📚 Indian Book Library</header>
+
+  <div class="container">
+    <!-- Search -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="🔍 Search for books...">
+    </div>
+
+    <!-- Categories -->
+    <div class="categories">
+      <button onclick="filterBooks('all')">All</button>
+      <button onclick="filterBooks('fiction')">Fiction</button>
+      <button onclick="filterBooks('history')">History</button>
+      <button onclick="filterBooks('autobiography')">Autobiography</button>
+      <button onclick="filterBooks('philosophy')">Philosophy</button>
+    </div>
+
+    <!-- Books -->
+    <div id="bookList" class="books"></div>
+
+    <!-- Borrowing History -->
+    <div class="history">
+      <h2>📖 Borrowing History</h2>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
