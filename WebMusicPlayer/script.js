@@ -2,10 +2,8 @@ const playlist = [
     { title: "Kash Maar", artist: "MellowD ft. Avani  DJ Ruchir", src: "Songs/Song1.mp3", cover: "Album_Cover/Song1.png" },
     { title: "Perfect", artist: "Ed Sheeran", src: "Songs/Song2.mp3", cover: "Album_Cover/Song2.webp" },
     { title: "Kar Gayi Chull", artist: "Sidharth Malhotra  Alia Bhatt  Badshah", src: "Songs/Song3.mp3", cover: "Album_Cover/Song3.webp" },
-    { title: "Thudarum", artist: "Mohanlal, Shobana | Jakes Bejoy | Tharun Moorthy | M Renjith", src: "Songs/Song4.mp3", cover: "Album_Cover/Song4.webp" },
-    { title: "Kar Gayi Chull", artist: "Sidharth Malhotra  Alia Bhatt  Badshah", src: "Songs/Song3.mp3", cover: "Album_Cover/Song3.webp" }
-];
-
+    { title: "Thudarum", artist: "Mohanlal, Shobana | Jakes Bejoy | Tharun Moorthy | M Renjith", src: "Songs/Song4.mp3", cover: "Album_Cover/Song4.webp" }
+]
 const audio = document.getElementById("audio");
 const playPauseBtn = document.getElementById("playPause");
 const prevBtn = document.getElementById("prev");

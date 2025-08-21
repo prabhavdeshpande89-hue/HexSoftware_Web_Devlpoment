@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crowdfunding - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Crowdfunding Platform</h1>
+        <a class="btn" href="{{ url_for('create') }}">+ Create Project</a>
+    </header>
+    <div class="container">
+        {% for project in projects %}
+        <div class="project-card">
+            <h2>{{ project.title }}</h2>
+            <p>{{ project.description }}</p>
+            <p><strong>Goal:</strong> ₹{{ project.goal }} | <strong>Raised:</strong> ₹{{ project.raised }}</p>
+            <a class="btn" href="{{ url_for('project', project_id=project.id) }}">View</a>
+        </div>
+        {% else %}
+        <p>No projects yet. <a href="{{ url_for('create') }}">Create one!</a></p>
+        {% endfor %}
+    </div>
+</body>
+</html>
